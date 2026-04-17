@@ -1,0 +1,14 @@
+[project]
+name = "langgraph-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.2.14",
+    "langchain-google-genai>=3.2.0",
+    "langchain-openai>=1.1.12",
+    "langgraph>=1.1.4",
+    "pyppeteer>=2.0.0",
+    "python-dotenv>=1.2.2",
+]
